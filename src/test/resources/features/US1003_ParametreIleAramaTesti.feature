@@ -1,23 +1,23 @@
 
 
-Feature: US1003 kullanici parametre olarak verilen urunu aratabilmeli
 
-  Scenario: TC07 parametre ile arama yapilabilmeli
+Feature: US1002 Kullanici Background ozelligini kullanir
+
+  Background: anasayfaya gitme
     Given kullanici Testotomasyon sayfasina gider
-    And "baby" icin arama yapar
+
+
+  Scenario:TC04 kullanici phone icin arama yapabilmeli
+    And phone icin arama yapar
     Then aradigi urunun bulundugunu test eder
-    And 1 saniye bekler
     And sayfayi kapatir
 
-  Scenario: TC08 kullanici nutella icin sonuc bulamamali
-    Given kullanici Testotomasyon sayfasina gider
-    And "nutella" icin arama yapar
-    And 3 saniye bekler
+  Scenario: TC05 kullanici dress icin arama yapabilmeli
+    And dress icin arama yapar
+    Then aradigi urunun bulundugunu test eder
+    And sayfayi kapatir
+
+  Scenario: TC06 kullanici java icin sonuc bulamamali
+    And java icin arama yapar
     Then aradigi urunun bulunmadigini test eder
-    And sayfayi kapatir
-
-  Scenario: TC09 parametre ile arama yapilabilmeli
-    Given kullanici Testotomasyon sayfasina gider
-    And "iphone" icin arama yapar
-    Then aradigi urunun bulundugunu test eder
     And sayfayi kapatir
