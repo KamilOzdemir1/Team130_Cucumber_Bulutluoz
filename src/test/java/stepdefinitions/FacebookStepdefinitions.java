@@ -52,4 +52,6 @@ public class FacebookStepdefinitions {
     public void facebook_kayit_ol_tusuna_basar() {
         facebookPage.kayitOlButonu.click();
     }
+
+
 }
