@@ -9,7 +9,7 @@ Feature: US1009 Kullanici verilen listedeki tum urunleri aratir
     Then "<aranacakKelime>" icin arama yapar
     And aradigi urunun bulundugunu test eder
     And 1 saniye bekler
-    Then sayfayi kapatir
+
 
     Examples:
       |aranacakKelime|

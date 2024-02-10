@@ -10,7 +10,7 @@ Feature: US1010 kullanici verilen yanlis bilgilerle giris yapamaz
     Then signIn butonuna basar
     And sisteme giris yapamadigini test eder
     And 1 saniye bekler
-    Then sayfayi kapatir
+
 
     Examples:
       |siradakiEmail    |siradakiPassword|

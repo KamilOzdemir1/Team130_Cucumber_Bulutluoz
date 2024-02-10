@@ -14,4 +14,3 @@ Feature: US1015 Webuniversity sayfasinda yanlis bilgilerle giris yapilamamali
     And Ok diyerek Popup'i kapatir
     When Ilk sayfaya geri doner
     Then Ilk sayfaya donuldugunu test eder
-    And sayfayi kapatir

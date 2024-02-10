@@ -12,4 +12,3 @@ Feature: Kullanici facebook'a kayit icin form doldurabilmeli
     Then 5 saniye bekler
     And facebook kayit ol tusuna basar
     Then 2 saniye bekler
-    And sayfayi kapatir

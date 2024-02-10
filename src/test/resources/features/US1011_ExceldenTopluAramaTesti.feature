@@ -8,7 +8,7 @@ Feature: US1011 kullanici excel olarak verilen listedeki urunleri aratir
     And urun ismini testotomasyonu sayfasinda aratir ve sonuc sayisini kaydeder
     And bulunan urun sayisinin kaydedilen min. miktardan fazla oldugunu test eder
     And 1 saniye bekler
-    And sayfayi kapatir
+
 
     Examples:
       |istenenSatir|

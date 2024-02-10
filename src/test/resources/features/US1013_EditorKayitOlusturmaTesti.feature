@@ -8,4 +8,3 @@ Feature: US1013 Kullanicilar kayit olusturabilmeli
     And Create tusuna basar
     When kullanici ilk isim ile arama yapar
     Then isim bolumunde isminin oldugunu dogrular
-    And sayfayi kapatir
